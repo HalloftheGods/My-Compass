@@ -1,0 +1,4 @@
+vendor/
+.docksal/docksal-local.env
+.env
+
