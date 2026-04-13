@@ -158,7 +158,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hallofthegods/blackbox-bedrock.git",
-                "reference": "f129aea010c8d9c8de1bd3b0b0cbf84eabef9aec"
+                "reference": "a9a240831de539928a9c15c65a20d62fb1048ff0"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -180,7 +180,7 @@
                 }
             ],
             "description": "BlackBOX MU Bedrock - Genesis Edition",
-            "time": "2026-04-13T04:25:58+00:00"
+            "time": "2026-04-13T05:07:33+00:00"
         }
     ],
     "packages-dev": [],
