@@ -1,0 +1,17 @@
+{
+  "name": "blackbox",
+  "version": "1.0.0",
+  "description": "BlackBOX Engine Development Environment",
+  "scripts": {
+    "composer:clear": "docker compose run --rm composer clear-cache",
+    "composer:update": "pnpm composer:clear && docker compose run --rm composer update hallofthegods/blackbox-bedrock -W --no-interaction",
+    "composer:install": "docker compose run --rm composer install --no-interaction",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f wordpress",
+    "bedrock:update": "pnpm composer:update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

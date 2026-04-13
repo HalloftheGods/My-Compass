@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=8.1",
-        "hallofthegods/blackbox-bedrock": "dev-master",
+        "hallofthegods/blackbox-bedrock": "dev-main",
         "composer/installers": "^2.0"
     },
     "minimum-stability": "dev",

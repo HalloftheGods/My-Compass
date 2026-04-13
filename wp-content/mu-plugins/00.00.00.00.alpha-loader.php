@@ -1,7 +1,14 @@
 <?php
-/** Plugin Name: Alpha MU-Plugin Genesis Wave */
+/** Plugin Name: Genesis Wave
+ * Description: Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard.
+ * Version: 26.4.14
+ * Author: Hall of the Gods, Inc.
+ */
 
 function genesisWave( $library = __DIR__ ) {
+	$topXCards = $library . '/*/*.php';
+	$revealedCards = glob( $topXCards );
+
 	$convertManaCost = function( $cardX ) {
 		$card = basename( $cardX );	
 		$sorcery = 'index.php';
@@ -22,9 +29,6 @@ function genesisWave( $library = __DIR__ ) {
 			}
 		}
 	};
-
-	$topXCards = $library . '/*/*.php';
-	$revealedCards = glob( $topXCards );
 	
 	$addToBattlefield( $revealedCards );
 }

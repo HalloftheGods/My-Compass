@@ -26,6 +26,8 @@ services:
       context: .
       dockerfile: docker/wordpress/Dockerfile
     restart: always
+    ports:
+      - "80:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: user

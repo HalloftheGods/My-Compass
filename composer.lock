@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c4d1e3d6e832f71a470435a5a9448ac",
+    "content-hash": "b85e938c1107297b4f787f0651a463c3",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,11 +154,11 @@
         },
         {
             "name": "hallofthegods/blackbox-bedrock",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hallofthegods/blackbox-bedrock.git",
-                "reference": "148b0e5d837e4154aab07578e4bf12510bcfbc16"
+                "reference": "f129aea010c8d9c8de1bd3b0b0cbf84eabef9aec"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -171,7 +171,7 @@
                 ]
             },
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -180,7 +180,7 @@
                 }
             ],
             "description": "BlackBOX MU Bedrock - Genesis Edition",
-            "time": "2026-04-12T18:57:02+00:00"
+            "time": "2026-04-13T04:25:58+00:00"
         }
     ],
     "packages-dev": [],
@@ -194,6 +194,6 @@
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
