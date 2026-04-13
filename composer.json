@@ -6,11 +6,16 @@
         {
             "type": "git",
             "url": "https://github.com/hallofthegods/blackbox-bedrock.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/hallofthegods/xophz-compass.git"
         }
     ],
     "require": {
         "php": ">=8.1",
-        "hallofthegods/blackbox-bedrock": "dev-main",
+        "hallofthegods/blackbox-bedrock": "^26",
+        "hallofthegods/xophz-compass": "^26",
         "composer/installers": "^2.0"
     },
     "minimum-stability": "dev",
@@ -23,9 +28,15 @@
     },
     "extra": {
         "installer-paths": {
-            "wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-            "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+            "wp-content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
         }
     }
 }
