@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd5e78c72693e642566b00d3e63686bc",
+    "content-hash": "9dbfeeeb72dccad7acae58e1a356e87f",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,16 +154,15 @@
         },
         {
             "name": "hallofthegods/blackbox-bedrock",
-            "version": "dev-main",
+            "version": "26.4.13.391",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hallofthegods/blackbox-bedrock.git",
-                "reference": "172cf7b85c8a9088dfe2790131ec207488cbf03e"
+                "reference": "bbf57463c80708fee782cca6b45d6892f886fe8d"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "autoload": {
                 "files": [
@@ -180,20 +179,19 @@
                 }
             ],
             "description": "BlackBOX MU Bedrock - Genesis Edition",
-            "time": "2026-04-13T06:09:35+00:00"
+            "time": "2026-04-13T06:31:42+00:00"
         },
         {
             "name": "hallofthegods/xophz-compass",
-            "version": "dev-main",
+            "version": "26.4.13.392",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hallofthegods/xophz-compass.git",
-                "reference": "75da702a50914ca97642ea3af048d47232c248dd"
+                "reference": "b8b69e80e03aed871bafe1c7be505bbaa9326c54"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "files": [
@@ -206,20 +204,17 @@
             "authors": [
                 {
                     "name": "Hall of the Gods, Inc.",
-                    "homepage": "https://mycompassconsulting.com"
+                    "homepage": "https://www.hallofthegods.com"
                 }
             ],
             "description": "It's dangerous to go alone! Explore your site with COMPASS.",
-            "time": "2026-04-13T05:56:34+00:00"
+            "time": "2026-04-13T06:32:19+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "hallofthegods/blackbox-bedrock": 20,
-        "hallofthegods/xophz-compass": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
